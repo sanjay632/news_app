@@ -16,7 +16,7 @@ import LoadingBar from 'react-top-loading-bar'
 
 // 74d2dd5553924d7c9adadba75aa5208d
  const pageSize=5;
- const apiKey=process.env.REACT_APP_NEWS_API
+apiKey=process.env.REACT_APP_NEWS_API
 
 
 // state = {   ==========>>>>>>>class base
@@ -60,4 +60,3 @@ const [progress, setProgress] = useState(0)
     }
   
 // }
-export default App;
